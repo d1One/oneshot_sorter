@@ -33,8 +33,9 @@ find . ! \( -path ./_TOM -prune \) -type f \( -iname "*tom*" -o -iname "*floor*"
 find . ! \( -path ./_CRASH -prune \) -type f \( -iname "*crash*" -o -iname "*crsh*" -o -iname "*china*" -o -iname "*splash*" -o -iname "*splsh*" \) -exec mv -i {} _CRASH \;
 # cymb ride bell (add cym?)
 find . ! \( -path ./_CYMB_RIDE -prune \) -type f \( -iname "*cymb*" -o -iname "*ride*" -o -iname "*bell*" \) -exec mv -i {} _CYMB_RIDE \;
-# bell tri clav shaker tamb perc cabasa conga cow maraca surdo - agogo
-find . ! \( -path ./_PERC -prune \) -type f \( -iname "*bell*" -o -iname "*tri*" -o -iname "*clav*" -o -iname "*shak*" -o -name "*tamb*" -o -iname "*perc*" -o -iname "*cabasa*" -o -iname "*conga*" -o -iname "*cow*" -o -iname "*maraca*" -o -iname "*surdo*" -o -iname "*agogo*" \) -exec mv -i {} _PERC \;
+# bell tri clav shaker tamb perc cabasa conga cow maraca surdo agogo bongo
+# percs are still missing some keywords as theres huge amounts of possibilities.
+find . ! \( -path ./_PERC -prune \) -type f \( -iname "*bell*" -o -iname "*tri*" -o -iname "*clav*" -o -iname "*shak*" -o -name "*tamb*" -o -iname "*perc*" -o -iname "*cabasa*" -o -iname "*conga*" -o -iname "*cow*" -o -iname "*maraca*" -o -iname "*surdo*" -o -iname "*agogo*" -o -iname "*bongo*" \) -exec mv -i {} _PERC \;
 # vox vocal chant
 find . ! \( -path ./_VOX -prune \) -type f \( -iname "*vox*" -o -iname "*vocal*" -o -iname "*chant*" \) -exec mv -i {} _VOX \;
 # efx sfx fx impact riser (fx might give a lot of false results)
