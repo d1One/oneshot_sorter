@@ -7,9 +7,13 @@ You have tons of ones-shot samples mixed together but the file names are somewha
 
 ## How the script works:
 .1 Makes a bunch of subfolders for the most common one-shots (Kick, Snare, Hats, Clap, etc..)
+
 .2 Searches in the folder and recursively in all other sub-folders inside it for matching filenames, for Kicks for example it searches for Kick, BassDrum, BD or KIK, whatever text comes before or after the match string is ignored.
+
 .3 Moves found files to their respective new subfolder.
+
 .4 Leaves anything that does not match in place.
+
 .5 Deletes all empty folders (including the ones created in step-1 if no matches are found)
 
 # Simple example:
