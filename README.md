@@ -39,10 +39,12 @@ Simple example:
 
 6. Done
 
-
+.
+.
+.
 
 Extra Notes:
 
-If having underscores before the sub folder names bothers then it's super easy to batch change it with MacOS built-in renaming function, as such:
+If having underscores before the sub folder names bothers you remmeber it's super fast and easy to batch rename in MacOS, as such:
 
 ![This is an image](/help/Rename_folders.gif)
