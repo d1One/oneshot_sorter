@@ -16,23 +16,27 @@ Simple example:
 ![This is an image](/help/SampleSort_example.gif)
 
 ## Notes:
-- The folders the script creates start with an underscore, this is in case we already have sub-folders with comon names such as "Kick" or "Snare".
-- It asks if we also want to move any "808" matches, this is mostly for 808 Kick/Bass but if my folder also has claps, snares, etc with the word 808 in the name it might cause issues, this is why it's optional, most modern kit's only have kicks and bass with 808 in the name, older kits not really, it depends.
+- The folders the script creates start with an underscore, this is in case we already have sub-folders with typical names such as "Kick" or "Snare".
+- It asks if we also want to move any "808" matches, this is mostly for 808 Kick/Bass but if your main folder also has claps, snares, etc with the word 808 in the file-name it might cause issues, this is why it's optional, most modern kit's only have kicks and bass with 808 in the name, older kits not really, it depends.
 
 ## How to use it: (For MacOS only for now, haven't tested Windows yet)
 
-1 - Download the SampleSort.command script, open the Terminal and type `chmod u+x ` (including a space) then drag and drop the script into the terminal (this makes the script executable).
+1. Download the SampleSort.command script, open the Terminal and type `chmod u+x ` (including a space) then drag and drop the script into the terminal (this makes the script executable).
+
 ![This is an image](/help/Make_executable.gif)
 
-2 - For the first run right-click the script and select "Open", MacOS will tell you it cannot veryfy the Developer, thats OK becase I am not a developer 😜. After the first run you're able to just double click the excript to launch it.
+2. For the first run right-click the script and select "Open", MacOS will tell you it cannot veryfy the Developer, thats OK becase I am not a developer 😜. After the first run you're able to just double click the excript to launch it.
 
-3 - Drag and drop the folder you want to sort into the script when asked.
+3. Drag and drop the folder you want to sort into the script when asked.
 
-4 - The script will tell yout the full path of the folder, **confirm it is indeed correct**. ⚠Pay attention to this step, you really dont want the script to run in the root folder of your drive and move all *Kick* files it might find... that would be bad. :heavy_exclamation_mark: If it looks good type "y" for yes.
+4. The script will tell yout the full path of the folder, **confirm it is indeed correct**. ⚠⚠⚠ Pay attention to this step, you really dont to accidentally run the script in the root folder of your drive and move all *Kick* named files... that could be a disaster in your system. :heavy_exclamation_mark: If it looks good type "y" for yes. ---- I advise copying a few samples to a temporary folder and testing it out first.
 
-5 - The script will also ask if you also want to move any files with 808 in their name to a the sub folder, as previously explained if this is usefull or not depends on your samples, if unsure type "n" for no.
+5. The script will also ask if you also want to move any files with 808 in their name to a the sub folder, as previously explained if this is usefull or not depends on your samples, if unsure type "n" for no.
 
-6 - Done
+6. Done
+
+Extra Notes:
 
 If having underscores before the sub folder names bothers then it's super easy to batch change it with MacOS built-in renaming function, as such:
+
 ![This is an image](/help/Rename_folders.gif)
