@@ -29,7 +29,7 @@ You have tons of ones-shot samples mixed together but the file names are somewha
 
 ## How to use it: (For MacOS only for now, haven't tested Windows yet)
 
-1. Download the SampleSort.command script, open the Terminal and type `chmod u+x ` (including a space) then drag and drop the script into the terminal (this makes the script executable).
+1. Download the SampleSort.command script, open the Terminal and type `chmod u+x ` (including a space) drag and drop the script into the terminal and press enter (this makes the script executable).
 
 ![This is an image](/help/Make_executable.gif)
 
