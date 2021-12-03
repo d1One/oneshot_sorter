@@ -19,7 +19,9 @@ Tons of packs with ones-shots mixed together but mostly the file names are descr
 ##How to run it: (For MacOS only for now, haven't tested Windows yet)
 
 1 - Download the SampleSort.command script, open the Terminal and type chmod u+x and drag and drop the script in the terminal (this makes the script executable).
-/help/Make_executable.gif
+
+![This is an image](/help/Make_executable.gif)
+
 
 2 - For the first run right-click the script and select "Open", MacOS will tell you it cannot very the Developer, thats OK becase I am not a developer ;). After the first run you're able to just double click the excript to launch it.
 
