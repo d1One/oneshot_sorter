@@ -15,9 +15,13 @@ You have tons of ones-shot samples mixed together but the file names are somewha
 Simple example:
 ![This is an image](/help/SampleSort_example.gif)
 
+
+
 ## Notes:
 - The folders the script creates start with an underscore, this is in case we already have sub-folders with typical names such as "Kick" or "Snare".
 - It asks if we also want to move any "808" matches, this is mostly for 808 Kick/Bass but if your main folder also has claps, snares, etc with the word 808 in the file-name it might cause issues, this is why it's optional, most modern kit's only have kicks and bass with 808 in the name, older kits not really, it depends.
+
+
 
 ## How to use it: (For MacOS only for now, haven't tested Windows yet)
 
@@ -29,11 +33,13 @@ Simple example:
 
 3. Drag and drop the folder you want to sort into the script when asked.
 
-4. The script will tell yout the full path of the folder, **confirm it is indeed correct**. ⚠⚠⚠ Pay attention to this step, you really dont to accidentally run the script in the root folder of your drive and move all *Kick* named files... that could be a disaster in your system. :heavy_exclamation_mark: If it looks good type "y" for yes. ---- I advise copying a few samples to a temporary folder and testing it out first.
+4. The script will tell yout the full path of the folder, **confirm it is indeed correct**. ⚠ Pay attention to this step, you really dont to accidentally run the script in the root folder of your drive and move all *Kick* named files... that could be a disaster:heavy_exclamation_mark:⚠ If it looks good type "y" for yes. ---- I advise copying a few samples to a temporary folder and testing it out first.
 
 5. The script will also ask if you also want to move any files with 808 in their name to a the sub folder, as previously explained if this is usefull or not depends on your samples, if unsure type "n" for no.
 
 6. Done
+
+
 
 Extra Notes:
 
