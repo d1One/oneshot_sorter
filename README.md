@@ -3,20 +3,20 @@
 A Bash Script to organize Audio One-Shot Samples into subfolders based on file-name.
 
 Scenario: 
-Tons of packs with ones-shots mixed together but mostly the file names are descriptive, something like bla_bla_Kick014.wav or bla_HAT234.wav.
+You have tons of ones-shots audio files mixed together but the file names are descriptive, something like bla_bla_Kick014.wav or bla_HAT234.wav.
 
-##How the script works:
+## How the script works:
 1 - Makes a bunch of subfolders for the most common one-shots (Kick, Snare, Hats, Clap, etc..)
 2 - Searches in the subfolder and all other folders inside it for matching filenames, for Kicks for example it searches for Kick, BassDrum, BD or KIK, whatever text comes before or after the match string is ignored.
 3 - Moves found files to their respective new subfolder.
 4 - Leaves anything that does not match in place.
 5 - Deletes all empty folders. 
 
-##Notes:
+## Notes:
 - The folders the script creates start with an underscore, this is in case we already have sub-folders with names such as "Kick" or "Snare".
 - It asks if we also want to move any "808" matches, this is mostly for 808 Kick/Bass but if my folder also has claps, snares, etc with the word 808 in the name it might cause issues, this is why it's optional.
 
-##How to run it: (For MacOS only for now, haven't tested Windows yet)
+## How to use it: (For MacOS only for now, haven't tested Windows yet)
 
 1 - Download the SampleSort.command script, open the Terminal and type chmod u+x and drag and drop the script in the terminal (this makes the script executable).
 
